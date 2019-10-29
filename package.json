@@ -1,0 +1,40 @@
+{
+  "name": "vuepress-plugin-mygitalk",
+  "version": "1.0.0",
+  "description": "VuePress集成Gitalk. | Gitalk plugin for VuePress.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyBling/vuepress-plugin-mygitalk.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "vuepress-plugin",
+    "yilia-plus",
+    "generator",
+    "gitalk",
+    "issues",
+    "github"
+  ],
+  "author": {
+    "name": "JoeyBling",
+    "email": "2434387555@qq.com",
+    "url": "https://zhousiwei.gitee.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeyBling/vuepress-plugin-mygitalk/issues"
+  },
+  "homepage": "https://github.com/JoeyBling/vuepress-plugin-mygitalk",
+  "dependencies": {
+    "gitalk": "^1.5.0",
+    "lodash": "^4.17.15"
+  }
+}
