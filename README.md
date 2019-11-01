@@ -1,24 +1,23 @@
 # vuepress-plugin-mygitalk
 
 ```
-.___  ___. ____    ____  _______  __  .___________.    ___       __       __  ___ 
-|   \/   | \   \  /   / /  _____||  | |           |   /   \     |  |     |  |/  / 
-|  \  /  |  \   \/   / |  |  __  |  | `---|  |----`  /  ^  \    |  |     |  '  /  
-|  |\/|  |   \_    _/  |  | |_ | |  |     |  |      /  /_\  \   |  |     |    <   
-|  |  |  |     |  |    |  |__| | |  |     |  |     /  _____  \  |  `----.|  .  \  
-|__|  |__|     |__|     \______| |__|     |__|    /__/     \__\ |_______||__|\__\ 
-                                                                                  
+.___  ___. ____    ____  _______  __  .___________.    ___       __       __  ___
+|   \/   | \   \  /   / /  _____||  | |           |   /   \     |  |     |  |/  /
+|  \  /  |  \   \/   / |  |  __  |  | `---|  |----`  /  ^  \    |  |     |  '  /
+|  |\/|  |   \_    _/  |  | |_ | |  |     |  |      /  /_\  \   |  |     |    <
+|  |  |  |     |  |    |  |__| | |  |     |  |     /  _____  \  |  `----.|  .  \
+|__|  |__|     |__|     \______| |__|     |__|    /__/     \__\ |_______||__|\__\
 ```
 
-[![](https://nodei.co/npm/vuepress-plugin-gotop-plus.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/vuepress-plugin-gotop-plus)
+[![](https://nodei.co/npm/vuepress-plugin-mygitalk.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/vuepress-plugin-mygitalk)
 
-[![npm package](https://img.shields.io/npm/v/vuepress-plugin-gotop-plus.svg?label=vuepress-plugin-gotop-plus)](https://www.npmjs.com/package/vuepress-plugin-gotop-plus)
-[![downloads-total](https://img.shields.io/npm/dt/vuepress-plugin-gotop-plus.svg)](https://www.npmjs.com/package/vuepress-plugin-gotop-plus)
-[![downloads-month](https://img.shields.io/npm/dm/vuepress-plugin-gotop-plus.svg)](https://www.npmjs.com/package/vuepress-plugin-gotop-plus)
-![star](https://img.shields.io/github/stars/JoeyBling/vuepress-plugin-gotop-plus "star")
-![fork](https://img.shields.io/github/forks/JoeyBling/vuepress-plugin-gotop-plus "fork")
-![GitHub Last Commit](https://img.shields.io/github/last-commit/JoeyBling/vuepress-plugin-gotop-plus.svg?label=commits "GitHub Last Commit")
-![issues](https://img.shields.io/github/issues/JoeyBling/vuepress-plugin-gotop-plus "issues")
+[![npm package](https://img.shields.io/npm/v/vuepress-plugin-mygitalk.svg?label=vuepress-plugin-mygitalk)](https://www.npmjs.com/package/vuepress-plugin-mygitalk)
+[![downloads-total](https://img.shields.io/npm/dt/vuepress-plugin-mygitalk.svg)](https://www.npmjs.com/package/vuepress-plugin-mygitalk)
+[![downloads-month](https://img.shields.io/npm/dm/vuepress-plugin-mygitalk.svg)](https://www.npmjs.com/package/vuepress-plugin-mygitalk)
+![star](https://img.shields.io/github/stars/JoeyBling/vuepress-plugin-mygitalk "star")
+![fork](https://img.shields.io/github/forks/JoeyBling/vuepress-plugin-mygitalk "fork")
+![GitHub Last Commit](https://img.shields.io/github/last-commit/JoeyBling/vuepress-plugin-mygitalk.svg?label=commits "GitHub Last Commit")
+![issues](https://img.shields.io/github/issues/JoeyBling/vuepress-plugin-mygitalk "issues")
 [![Author](https://img.shields.io/badge/Author-JoeyBling-red.svg "Author")](https://zhousiwei.gitee.io "Author")
 [![VuePress Version](https://img.shields.io/badge/VuePress-%3E%3D%201.0.0-blue.svg)](https://v1.vuepress.vuejs.org/zh/)
 [![vuepress-theme-yilia-plus](https://img.shields.io/badge/Theme-Yilia_Plus-red.svg "vuepress-theme-yilia-plus")](https://github.com/JoeyBling/vuepress-theme-yilia-plus)
@@ -26,15 +25,15 @@
 
 ------------------
 
-> **欢迎使用和Star支持，如使用过程中碰到问题，可以提出Issue，我会尽力完善**
+> **欢迎使用和Star支持，如使用过程中碰到问题，可以提出[Issue](https://github.com/JoeyBling/vuepress-plugin-mygitalk/issues)，我会尽力完善**
 
 ## 介绍
-&#160;&#160;&#160;&#160;**VuePress回到页首插件Plus. back-to-top plus plugin for VuePress.**
-
-> 此插件根据官方插件[@vuepress/plugin-back-to-top](https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-back-to-top.html)更改调整，加入了一些自定义参数配置.
+&#160;&#160;&#160;&#160;**VuePress集成[Gitalk](https://github.com/gitalk/gitalk). | [Gitalk](https://github.com/gitalk/gitalk) plugin for VuePress.**
 
 - 功能还很少，欢迎各位给我提意见和建议~
-- [vuepress-plugin-gotop-plus](https://github.com/JoeyBling/vuepress-plugin-gotop-plus) 是为 [VuePress](https://v1.vuepress.vuejs.org/zh/) `1.0.0+`制作的插件。
+- [vuepress-plugin-mygitalk](https://github.com/JoeyBling/vuepress-plugin-mygitalk) 是为 [VuePress](https://v1.vuepress.vuejs.org/zh/) `1.0.0+`制作的插件。
+- [Gitalk文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md#%E8%AE%BE%E7%BD%AE)
+- 关于申请并配置第三方应用请查看 ➡️ [https://www.jianshu.com/p/ac7658cc912f](https://www.jianshu.com/p/ac7658cc912f)
 
 ## 线上预览
 
@@ -50,9 +49,9 @@
 ## 安装
 
 ```bash
-yarn add vuepress-plugin-gotop-plus
+yarn add vuepress-plugin-mygitalk
 # or
-npm install vuepress-plugin-gotop-plus --save
+npm install vuepress-plugin-mygitalk --save
 ```
 
 ------------
@@ -61,17 +60,15 @@ npm install vuepress-plugin-gotop-plus --save
 
 ### 引入该插件
 
-在配置文件中引入 `vuepress-plugin-gotop-plus`
+在配置文件中引入 `vuepress-plugin-mygitalk`
 
 > 查看 [官方文档](https://v1.vuepress.vuejs.org/zh/plugin/using-a-plugin.html)。
 
 ```javascript
 module.exports = {
   plugins: [
-    /* 两个插件只能选一个 */
-    ['@vuepress/plugin-back-to-top', false],
     [
-      'vuepress-plugin-gotop-plus'
+      'vuepress-plugin-mygitalk'
     ],
   ],
 }
@@ -82,14 +79,25 @@ module.exports = {
 ```javascript
 module.exports = {
   plugins: [
-    /* 两个插件只能选一个 */
-    ['@vuepress/plugin-back-to-top', false],
     [
-      'vuepress-plugin-gotop-plus', {
-        // 是否在移动设备上显示(default: true)
-        mobileShow: false,
-        // 回到页首元素显示触发的高度阈值(default: 50)
-        threshold: 50
+      'vuepress-plugin-mygitalk', {
+        // 是否启用(关闭请设置为false)(default: true)
+        enable: true,
+        // 是否开启首页评论(default: true)
+        home: true,
+        // Gitalk配置
+        gitalk: {
+          // GitHub Application Client ID.
+          clientID: '',
+          // GitHub Application Client Secret.
+          clientSecret: '',
+          // GitHub repository. 存储评论的 repo
+          repo: 'ibooks',
+          // GitHub repository 所有者，可以是个人或者组织。
+          owner: 'JoeyBling',
+          // 设置语言(default: zh-CN)
+          language: 'zh-CN',
+        }
       }
     ],
   ],
@@ -101,6 +109,8 @@ module.exports = {
 - ### 一款简洁优雅的hexo主题：[hexo-theme-yilia-plus](https://github.com/JoeyBling/hexo-theme-yilia-plus)
 - ### 一款简洁优雅的VuePress主题：[vuepress-theme-yilia-plus](https://github.com/JoeyBling/vuepress-theme-yilia-plus)
 - ### VuePress集成Live2D看板娘：[vuepress-plugin-helper-live2d](https://github.com/JoeyBling/vuepress-plugin-helper-live2d)
+- ### VuePress集成Gitalk：[vuepress-plugin-mygitalk](https://github.com/JoeyBling/vuepress-plugin-mygitalk)
+- ### VuePress回到页首插件Plus：[vuepress-plugin-gotop-plus](https://github.com/JoeyBling/vuepress-plugin-gotop-plus)
 
 ## 捐赠
 &#160;&#160;&#160;&#160;**如果感觉对您有帮助，请作者喝杯咖啡吧，请注明您的名字或者昵称，方便作者感谢o(*￣︶￣*)o**
@@ -122,4 +132,4 @@ module.exports = {
 
 ## LICENSE
 
-[![LICENSE](https://img.shields.io/github/license/JoeyBling/vuepress-plugin-gotop-plus "LICENSE")](./LICENSE "LICENSE")
+[![LICENSE](https://img.shields.io/github/license/JoeyBling/vuepress-plugin-mygitalk "LICENSE")](./LICENSE "LICENSE")

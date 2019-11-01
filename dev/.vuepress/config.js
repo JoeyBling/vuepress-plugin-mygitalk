@@ -16,7 +16,7 @@ module.exports = {
           clientID: '071b084546d9f5bd6306',
           // GitHub Application Client Secret.
           clientSecret: 'a19c22f6b78dd87a731a192afca81cf63e57c5d5',
-          // GitHub repository.
+          // GitHub repository. 存储评论的 repo
           repo: 'ibooks',
           // GitHub repository 所有者，可以是个人或者组织。
           owner: 'JoeyBling',
