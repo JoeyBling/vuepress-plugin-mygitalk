@@ -92,9 +92,9 @@ module.exports = {
           // GitHub Application Client Secret.
           clientSecret: '',
           // GitHub repository. 存储评论的 repo
-          repo: 'ibooks',
+          repo: '',
           // GitHub repository 所有者，可以是个人或者组织。
-          owner: 'JoeyBling',
+          owner: '',
           // 设置语言(default: zh-CN)
           language: 'zh-CN',
         }
