@@ -1,3 +1,4 @@
+import Gitalk from "./Gitalk.vue"
 import * as config from "../package.json"
 
 export default ({
@@ -8,4 +9,6 @@ export default ({
   Vue.prototype.$myGitalkAppUrl = config.homepage;
   Vue.prototype.$myGitalkAppDescription = config.description;
 
+  // 注册Vue全局组件
+  Vue.component('Gitalk', Gitalk);
 }

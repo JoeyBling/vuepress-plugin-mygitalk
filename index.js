@@ -35,7 +35,7 @@ module.exports = (options = {}, context) => ({
   clientRootMixin: path.resolve(__dirname, './libs/clientRootMixin.js'),
 
   /* 全局 UI Vue 组件 */
-  globalUIComponents: [],
+  globalUIComponents: ['Gitalk'],
 
   /* 在生产环境的构建结束后被调用，生成的页面的路径数组将作为该函数的第一个参数 */
   async generated() {
