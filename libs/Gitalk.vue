@@ -174,7 +174,7 @@ export default {
     renderGitalk(gitalkId) {
       //console.log(gitalkId)
       // Name is too long (maximum is 50 characters)
-      if (typeof document === "string") {
+      if (typeof gitalkId === "string") {
         gitalkId = gitalkId.length > 50 ? gitalkId.substr(0, 50) : gitalkId;
       }
       const gitalk = new Gitalk({
