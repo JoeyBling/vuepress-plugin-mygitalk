@@ -172,6 +172,7 @@ export default {
      * @param {*} gitalkId
      */
     renderGitalk(gitalkId) {
+      // debug 
       //console.log(gitalkId)
       // Name is too long (maximum is 50 characters)
       if (typeof gitalkId === "string") {
