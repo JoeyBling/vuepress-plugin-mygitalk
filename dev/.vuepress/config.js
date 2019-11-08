@@ -20,6 +20,8 @@ module.exports = {
           repo: 'ibooks',
           // GitHub repository 所有者，可以是个人或者组织。
           owner: 'JoeyBling',
+          // GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+          admin: ['JoeyBling'],
           // 设置语言(default: zh-CN)
           language: 'zh-CN',
         }

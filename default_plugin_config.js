@@ -26,6 +26,7 @@ module.exports = {
     // clientSecret: '',
     // repo: '',
     // owner: '',
+    // admin: [],
     language: 'zh-CN',
   },
 

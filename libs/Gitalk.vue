@@ -172,7 +172,7 @@ export default {
      * @param {*} gitalkId
      */
     renderGitalk(gitalkId) {
-      // debug 
+      // debug
       //console.log(gitalkId)
       // Name is too long (maximum is 50 characters)
       if (typeof gitalkId === "string") {
@@ -183,9 +183,13 @@ export default {
         // come from github development
         clientSecret: this.pluginConfig.gitalk.clientSecret,
         repo: this.pluginConfig.gitalk.repo,
+        // GitHub repository 所有者，可以是个人或者组织。
         owner: this.pluginConfig.gitalk.owner,
-        admin: [this.pluginConfig.gitalk.owner],
-        id: gitalkId, // Ensure uniqueness and length less than 50
+        // GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+        admin: !!this.pluginConfig.gitalk.admin
+          ? this.pluginConfig.gitalk.admin
+          : [this.pluginConfig.gitalk.owner],
+        id: gitalkId, // Ensure uniqueness and length less than 50 | 页面的唯一标识。长度必须小于50。
         distractionFreeMode: false, // Facebook-like distraction free mode
         language: !!this.pluginConfig.gitalk.language
           ? this.pluginConfig.gitalk.language

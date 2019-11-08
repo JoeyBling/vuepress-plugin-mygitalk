@@ -95,6 +95,8 @@ module.exports = {
           repo: '',
           // GitHub repository 所有者，可以是个人或者组织。
           owner: '',
+          // GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。(不配置默认是owner配置)
+          admin: [''],
           // 设置语言(default: zh-CN)
           language: 'zh-CN',
         }
