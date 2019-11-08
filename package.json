@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-mygitalk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "VuePress集成Gitalk. | Gitalk plugin for VuePress.",
   "main": "index.js",
   "publishConfig": {
