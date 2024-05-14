@@ -114,7 +114,7 @@ export default {
               clearInterval(timerCheckElem);
               this.loadGitalk(route, appElem);
             }
-          } else {
+          } else if(!(this.$page.frontmatter && this.$page.frontmatter.home)) {
             //console.log("Gitalk check Dom()")
             pageElem = document.querySelector(".page");
             if (pageElem) {
